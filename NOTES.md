@@ -1,0 +1,6 @@
+
+## Perspective correction findings
+- Confirmed camera angle bias empirically: 7 World Championship clips all measured 8-14 deg average angle deviation, despite expert visual judgment (own assessment) indicating all should receive 0 deduction (<=5 deg true deviation).
+- Built body-proportion-based yaw correction (shoulder-width/torso-length ratio vs front-facing reference). Reduced mean error by only ~10-15% - confounded by differing body proportions between reference (self) and World Championship athletes.
+- Investigated apparatus-based calibration (FIG-specified 50cm ring attachment spacing) as a stronger, athlete-independent alternative. Not pursued: ring anchor points not visible in broadcast footage, AND ring position during a held cross is not fixed at 50cm anyway (rings pulled apart by arm span, constrained by strap geometry) - the reference measurement does not apply during the hold itself.
+- Engineering conclusion: broadcast camera footage is not a reliable input for this kind of automated angle correction. A deployable version of this system would need a dedicated, calibrated camera at a known fixed position/angle relative to the rings, rather than relying on whatever camera angle is available.
