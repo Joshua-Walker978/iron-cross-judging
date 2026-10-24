@@ -1,0 +1,13 @@
+# Pipeline
+mediapipe>=0.10.14
+opencv-python>=4.8
+numpy>=1.24
+pandas>=2.0
+scipy>=1.10
+matplotlib>=3.7
+ipywidgets>=8.0
+
+# Testing and documentation
+pytest>=7.4
+pytest-html>=4.0
+pdoc>=14.0
