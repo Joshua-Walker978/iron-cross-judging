@@ -217,18 +217,13 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 
-pose_landmarker.task
+# --- Project-specific -------------------------------------------------
+# Pose model files are downloaded at run time (src/pose_estimation.py)
+models/
+*.task
 
-pose_landmarker.task
-
-pose_landmarker.task
-
-pose_landmarker.task
-
-pose_landmarker.task
-
-pose_landmarker.task
-
-pose_landmarker.task
-
-pose_landmarker.task
+# Raw videos and photos stay on Google Drive (copyright and privacy; see README)
+*.mp4
+*.mov
+*.MOV
+*.HEIC
